@@ -1,6 +1,6 @@
 {
-  "name": "@jkrishna95/package_one",
-  "version": "0.1.8",
+  "name": "@jkrishna95/package_two",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "JayaKrishna <namburu1995@gmail.com>",
   "homepage": "https://github.com/JayaKrishnaNamburu/lerna-basic-setup#readme",
@@ -23,9 +23,6 @@
   },
   "bugs": {
     "url": "https://github.com/JayaKrishnaNamburu/lerna-basic-setup/issues"
-  },
-  "dependencies": {
-    "ts-node": "^8.0.3"
   },
   "publishConfig": {
     "access": "public"

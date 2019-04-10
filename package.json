@@ -1,14 +1,14 @@
 {
   "name": "root",
+  "version": "0.0.1",
   "workspaces": [
-    "src/packages/*"
+    "packages/*"
   ],
   "private": true,
-  "main": "dist/index.js",
   "author": "JayaKrishna <namburu1995@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "node packages/core/lib/index.js",
     "build": "rimraf -f dist && lerna run build",
     "publish": "npm run build && lerna publish"
   },
