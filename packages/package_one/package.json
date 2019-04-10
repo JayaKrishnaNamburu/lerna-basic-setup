@@ -1,0 +1,9 @@
+{
+  "name": "package_one",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf -f dist && tsc"
+  }
+}
