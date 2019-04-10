@@ -6,11 +6,14 @@
   "npmClientArgs": [
     "--no-lockfile"
   ],
-  "version": "0.1.7",
+  "version": "0.1.8",
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "ignoreChanges": ["ignored-file", "*.md"],
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ],
       "message": "chore(release): publish"
     }
   }
