@@ -7,5 +7,11 @@
     "--no-lockfile"
   ],
   "version": "0.1.7",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "ignoreChanges": ["ignored-file", "*.md"],
+      "message": "chore(release): publish"
+    }
+  }
 }

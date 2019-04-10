@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = packageOne;
-
-function packageOne() {
-    // TODO
+const packageOne = () => {
+    console.log('This is from imported package');
 }
+
+module.exports = packageOne;
