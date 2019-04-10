@@ -4,8 +4,6 @@
     "packages/*"
   ],
   "main": "server.js",
-  "version": "0.0.1",
-  "private": true,
   "author": "JayaKrishna <namburu1995@gmail.com>",
   "license": "MIT",
   "scripts": {
