@@ -1,3 +1,3 @@
 # lerna-basic-setup
 
-Trying to setup lerna
+Boilerplate to use lerna with typescript

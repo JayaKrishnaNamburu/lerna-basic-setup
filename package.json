@@ -1,19 +1,21 @@
 {
   "name": "root",
   "workspaces": [
-    "packages/*"
+    "src/packages/*"
   ],
-  "main": "server.js",
+  "private": true,
+  "main": "dist/index.js",
   "author": "JayaKrishna <namburu1995@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "node dist/server.js",
-    "build": "rimraf -f dist && tsc",
-    "publish": "lerna run build && lerna publish"
+    "build": "rimraf -f dist && lerna run build",
+    "publish": "npm run build && lerna publish"
   },
   "devDependencies": {
     "@types/node": "^11.13.2",
     "lerna": "^3.13.2",
+    "rimraf": "^2.6.3",
     "typescript": "^3.4.3"
   }
 }
