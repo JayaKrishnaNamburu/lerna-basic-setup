@@ -1,6 +1,6 @@
 {
   "name": "@jkrishna95/core",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "JayaKrishna <namburu1995@gmail.com>",
   "homepage": "https://github.com/JayaKrishnaNamburu/lerna-basic-setup#readme",
@@ -28,6 +28,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@jkrishna95/package_one": "0.0.1"
+    "@jkrishna95/package_one": "^1.0.0"
   }
 }

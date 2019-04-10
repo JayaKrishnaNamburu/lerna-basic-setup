@@ -6,6 +6,6 @@
   "npmClientArgs": [
     "--no-lockfile"
   ],
-  "version": "0.0.1",
+  "version": "1.0.0",
   "useWorkspaces": true
 }
