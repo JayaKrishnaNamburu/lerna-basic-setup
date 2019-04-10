@@ -13,11 +13,11 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
   "scripts": {
     "build": "rimraf -f dist && tsc"
   },
-  "gitHead": "24a18e075e6ac10407a619a69fbb502c0dbc1261"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "d370aac44bfb31c03cbfb429de7d59fcabb1840b"
 }
