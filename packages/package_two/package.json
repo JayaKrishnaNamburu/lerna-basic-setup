@@ -1,9 +1,10 @@
 {
-  "name": "package_two",
+  "name": "@jkrishna95/package_two",
   "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "rimraf -f dist && tsc"
-  }
+  },
+  "gitHead": "7a3b3d6f16db60b844ff9e1feacbad70c24d86fd"
 }

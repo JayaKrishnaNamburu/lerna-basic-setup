@@ -1,5 +1,5 @@
 {
-  "name": "package_three",
+  "name": "@jkrishna95/package_three",
   "version": "0.0.2",
   "description": "> TODO: description",
   "author": "JayaKrishna <namburu1995@gmail.com>",
@@ -18,5 +18,6 @@
   },
   "scripts": {
     "build": "rimraf -f dist && tsc"
-  }
+  },
+  "gitHead": "7a3b3d6f16db60b844ff9e1feacbad70c24d86fd"
 }

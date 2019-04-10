@@ -1,0 +1,12 @@
+0 silly argv { _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.13.2',
+0 silly argv   '$0': 'lerna' }
+1 notice cli v3.13.2
+2 verbose rootPath /Users/a1290641/Documents/personal/lerna-baisc-setup
+3 error Error: Invalid package name "@jkrishna95package_one": name can only contain URL-friendly characters
+3 error     at invalidPackageName (/Users/a1290641/Documents/personal/lerna-baisc-setup/node_modules/npm-package-arg/npa.js:82:15)
+3 error     at Result.setName (/Users/a1290641/Documents/personal/lerna-baisc-setup/node_modules/npm-package-arg/npa.js:118:11)
+3 error     at new Result (/Users/a1290641/Documents/personal/lerna-baisc-setup/node_modules/npm-package-arg/npa.js:107:23)
+3 error     at Function.resolve (/Users/a1290641/Documents/personal/lerna-baisc-setup/node_modules/npm-package-arg/npa.js:54:15)
+3 error     at new Package (/Users/a1290641/Documents/personal/lerna-baisc-setup/node_modules/@lerna/package/index.js:36:26)
