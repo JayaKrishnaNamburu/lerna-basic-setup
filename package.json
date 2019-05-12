@@ -8,7 +8,7 @@
   "author": "JayaKrishna <namburu1995@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node packages/core/lib/index.js",
+    "start": "node packages/core/dist/index.js",
     "build": "rimraf -f dist && lerna run build",
     "publish": "npm run build && lerna publish"
   },
