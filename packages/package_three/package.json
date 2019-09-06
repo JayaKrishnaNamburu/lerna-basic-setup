@@ -26,5 +26,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "codesandbox": "^2.1.10",
+    "cross-fetch": "^3.0.4"
   }
 }

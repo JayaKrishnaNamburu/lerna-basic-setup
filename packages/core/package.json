@@ -28,6 +28,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@jkrishna95/package_one": "^1.1.0"
+    "@jkrishna95/package_one": "^1.1.0",
+    "@jkrishna95/package_three": "^1.1.0"
   }
 }
