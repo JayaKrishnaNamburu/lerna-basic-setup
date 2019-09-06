@@ -26,19 +26,13 @@ const html = '<div id="root"></div>';
 
 const parameters = getParameters({
   files: {
-    "package.json": {
-      content: {
-        dependencies: {
-          react: "latest",
-          "react-dom": "latest"
-        }
-      }
-    },
     "index.js": {
-      content: code
+      content: code,
+      isBinary: false
     },
     "index.html": {
-      content: html
+      content: html,
+      isBinary: false
     }
   }
 });
